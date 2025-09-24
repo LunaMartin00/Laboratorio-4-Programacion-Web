@@ -1,0 +1,6 @@
+
+**Pregunta 1**
+RESPUESTA: Esto ocurre por la "coerción de tipos" de JavaScript. El lenguaje convierte los valores automáticamente para que la operación funcione. El operador `+` actúa como concatenación si encuentra un string, en lugar de una suma. Es una característica de su tipado débil, que ofrece flexibilidad a cambio de poder generar resultados que requieren atención.
+
+**Pregunta 2**
+RESPUESTA: La lógica subyacente es la misma. La particularidad de JS es su uso de valores "truthy" y "falsy". Ciertos valores (`0`, `""`, `null`, `undefined`) se consideran falsos, y todos los demás, verdaderos. Es un enfoque típico de lenguajes interpretados para simplificar y agilizar el desarrollo.
